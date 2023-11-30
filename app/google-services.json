@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "831263146912",
+    "project_id": "fir-login-signup-ce9ab",
+    "storage_bucket": "fir-login-signup-ce9ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831263146912:android:9285720c7d57ecb0681ac5",
+        "android_client_info": {
+          "package_name": "Maciej.Wilczynski.gymnote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8UOCypeynGhmDgLzVjFM7-HiH1pI7jJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GymNote</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">click_to_login</string>
+    <string name="click_to_register">click_to_register</string>
+    <string name="loguot">loguot</string>
+    <string name="open" > Open Navigation Drawer </string>
+    <string name="close" > Open Navigation Drawer </string>
+    <string name="about">About</string>
+    <string name="share">Share</string>
+    <string name="communication">Communication</string>
+    <string name="galelery">Galelery</string>
+    <string name="profile">Profile</string>
+    <string name="contact">Contact</string>
+    <string name="home">Home</string>
+    <string name="share_us">Share us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="login_pic" />
+</resources>
