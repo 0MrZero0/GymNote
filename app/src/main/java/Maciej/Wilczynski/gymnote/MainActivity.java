@@ -51,24 +51,27 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int itemId = item.getItemId();
-                if (itemId == R.id.logout) {
+                if (itemId == R.id.home){
+                    showToast("Selected: " + item.getTitle());
+                }else if (itemId == R.id.select_plan){
+                    showToast("Selected: " + item.getTitle());
+                }else if (itemId == R.id.create_plan) {
+                    showToast("Selected: " + item.getTitle());
+                    Intent intent = new Intent(getApplicationContext(), Create_traning_plan.class);
+                    startActivity(intent);
+                    finish();
+                }else if (itemId == R.id.analysis) {
+                    showToast("Selected: " + item.getTitle());
+                }else if (itemId == R.id.settings){
+                    showToast("Selected: " + item.getTitle());
+                }else if(itemId == R.id.help) {
+                    showToast("Selected: " + item.getTitle());
+                }else if (itemId == R.id.sign_out) {
                     showToast("Wylogowano");
                     FirebaseAuth.getInstance().signOut();
                     Intent intent = new Intent(getApplicationContext(), Login.class);
                     startActivity(intent);
                     finish();
-                }else if (itemId == R.id.home){
-                    showToast("Selected: " + item.getTitle());
-                }else if (itemId == R.id.contact){
-                    showToast("Selected: " + item.getTitle());
-                }else if (itemId == R.id.gallery) {
-                    showToast("Selected: " + item.getTitle());
-                }else if (itemId == R.id.about) {
-                    showToast("Selected: " + item.getTitle());
-                }else if (itemId == R.id.share){
-                    showToast("Selected: " + item.getTitle());
-                }else if(itemId == R.id.rate_us) {
-                    showToast("Selected: " + item.getTitle());
                 }
 
                 drawerLayout.closeDrawer(GravityCompat.START);

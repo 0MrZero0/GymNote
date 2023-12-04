@@ -6,17 +6,20 @@
     <string name="register">Register</string>
     <string name="click_to_login">click_to_login</string>
     <string name="click_to_register">click_to_register</string>
-    <string name="loguot">loguot</string>
-    <string name="open" > Open Navigation Drawer </string>
-    <string name="close" > Open Navigation Drawer </string>
-    <string name="about">About</string>
-    <string name="share">Share</string>
-    <string name="communication">Communication</string>
-    <string name="galelery">Galelery</string>
-    <string name="profile">Profile</string>
-    <string name="contact">Contact</string>
+    <string name="logout">logout</string>
+    <string name="open"> Open Navigation Drawer </string>
+    <string name="close"> Open Navigation Drawer </string>
     <string name="home">Home</string>
-    <string name="share_us">Share us</string>
-    <string name="rate_us">Rate Us</string>
     <string name="login_pic" />
+    <string name="help">Help\n</string>
+    <string name="create_traning_plan">Create traning plan</string>
+    <string name="training_plan">Traning plan</string>
+    <string name="select_plan">Select traning plan</string>
+    <string name="create_plan">Create your traning plan</string>
+    <string name="analysis">Analysis</string>
+    <string name="settings">Settings</string>
+    <string name="sign_out">Sign_out</string>
+    <string name="add">Add exercise</string>
+    <string name="back">back to menu</string>
+
 </resources>

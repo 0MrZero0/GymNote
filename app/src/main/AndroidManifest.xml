@@ -15,13 +15,19 @@
         android:theme="@style/Theme.Material3.Light"
         tools:targetApi="31">
         <activity
-            android:name="sign_in.Register"
-            android:theme="@style/Theme.Design.Light.NoActionBar"
+            android:name=".Create_traning_plan"
             android:exported="false" />
         <activity
+            android:name=".Select_traning_plan"
+            android:exported="false" />
+        <activity
+            android:name="sign_in.Register"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
             android:name="sign_in.Login"
-            android:theme="@style/Theme.Design.Light.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,9 +36,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
